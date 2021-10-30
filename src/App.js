@@ -17,6 +17,8 @@ function App() {
   const [desc, setDesc] = useState(null);
   const [star, setStar] = useState(0);
   const [viewport, setViewport] = useState({
+    width: "100",
+    height: "100",
     latitude: 47.040182,
     longitude: 17.071727,
     zoom: 4,
